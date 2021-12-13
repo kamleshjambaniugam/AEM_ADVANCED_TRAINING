@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastReplicated="{Date}2021-09-17T10:40:46.749+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:uuid="c6550c0e-5360-4264-979e-bd0cee752670"
+        sling:resourceType="cq/contexthub/components/segments-listing-page"/>
+    <winter/>
+    <summer/>
+</jcr:root>

@@ -1,0 +1,15 @@
+<div data-sly-use.timeline="com.personalproject.core.models.Timeline"></div>
+
+<section class="timeline pb-120">
+<ul data-sly-list.items="${timeline.timelineDetailsWithMap}">
+			    <li>
+			      <div class="content">
+			        <h4>
+			          <time>${items.heading}</time>
+			        </h4>
+			        <p>${items.title}</p>
+                    <p>${items.text}</p>
+			      </div>
+			    </li>
+</ul>
+</section>

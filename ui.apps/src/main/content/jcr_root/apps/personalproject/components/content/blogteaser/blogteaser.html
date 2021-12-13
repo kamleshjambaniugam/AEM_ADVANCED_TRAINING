@@ -1,0 +1,19 @@
+<div data-sly-use.blogteaser="com.personalproject.core.models.BlogTeaser"></div>
+
+<section class="recent-blog-area section-gap">
+				<div class="container">
+					<div>	
+						<div class="single-recent-blog">
+							<div class="thumb">
+								<img class="f-img img-fluid mx-auto" src="${blogteaser.image}" alt="">	
+							</div>							
+							<a href="#">
+								<h4>${blogteaser.title}</h4>
+							</a>
+							<p>
+								${blogteaser.description}							
+                            </p>
+						</div>
+                    </div>
+                </div>
+</section>

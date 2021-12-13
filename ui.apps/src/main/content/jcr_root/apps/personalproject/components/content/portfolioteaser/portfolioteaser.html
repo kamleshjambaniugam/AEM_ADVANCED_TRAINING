@@ -1,0 +1,27 @@
+<div data-sly-use.portfolio="com.personalproject.core.models.PortfolioTeaser"></div>
+
+<section class="portfolio-area pb-120" id="portfolio">
+	<div class="container">
+		<div class="filters-content">
+			<div class="row grid">
+				<div class="single-portfolio col all vector">
+					<div class="relative">
+                    	<div class="thumb">
+							<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="${portfolio.image}" alt="">
+	                  	</div>
+						<a href="${portfolio.image}" class="img-pop-up">	
+							<div class="middle">
+								<div class="text align-self-center d-flex"><img src="/content/dam/personalproject/preview.png" alt=""></div>
+							</div>
+						</a>                              		
+					</div>
+					<div class="p-inner">
+						<h4>${portfolio.title}</h4>
+						<div class="cat">${portfolio.type}</div>
+					</div>					                               
+           		</div>
+			</div>
+		</div>
+	</div>
+</section>

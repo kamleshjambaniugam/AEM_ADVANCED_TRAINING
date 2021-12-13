@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastModified="{Date}2021-09-13T11:04:45.907+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2021-09-17T10:40:40.643+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:templateType="/conf/personalproject/settings/wcm/template-types/page1"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Custom Template"
+        status="enabled"/>
+</jcr:root>

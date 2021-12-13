@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastReplicated="{Date}2021-09-17T10:41:03.917+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        jcr:description="Custom template type for empty experience fragments variations of My Site"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Custom XF Template Type"/>
+</jcr:root>

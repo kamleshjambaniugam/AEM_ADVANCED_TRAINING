@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-09-16T17:49:26.163+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2021-09-17T10:39:58.314+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:template="/conf/personalproject/settings/wcm/templates/page-content"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="About"
+        jcr:uuid="f8c5db56-a6d3-4fad-9794-34d6d52956f8"
+        sling:resourceType="personalproject/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="personalproject/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="personalproject/components/container"
+                layout="responsiveGrid">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="personalproject/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="personalproject/components/container"
+                    layout="responsiveGrid">
+                    <menunav
+                        jcr:created="{Date}2021-09-14T12:42:12.062+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-15T12:48:00.525+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="personalproject/components/content/menunav"
+                        heading="About Me"
+                        path="/content/personalproject/us/en/home"
+                        path1="/content/personalproject/us/en/home"
+                        path2="/content/personalproject/us/en/about"
+                        title="Home"
+                        title1="Home"
+                        title2="About Me"/>
+                    <experiencefragment_723160303
+                        jcr:created="{Date}2021-09-16T17:49:04.387+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-16T17:49:04.387+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="personalproject/components/experiencefragment"
+                        fragmentVariationPath="/content/experience-fragments/personalproject/us/en/site/home-about-fragment/master"/>
+                    <titletext
+                        jcr:created="{Date}2021-09-15T11:45:22.759+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-15T11:46:48.718+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="personalproject/components/content/titletext"
+                        info="Who are in extremely love with eco friendly system."
+                        paddingbottom="true"
+                        sectiongap="true"
+                        title="My Qualifications"/>
+                    <timeline
+                        jcr:created="{Date}2021-09-14T23:43:31.576+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-15T22:31:12.557+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="personalproject/components/content/timeline">
+                        <timelinedetailswithmap jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                heading="Masters in Graphics &amp; Fine Arts"
+                                text="Result: 3.78 (In the Scale of 4.00)"
+                                title="Session: 2010-11"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                heading="Creative Content Developer"
+                                title="July 2015 to Present"/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                heading="Bachelor in Graphics &amp; UI/UX"
+                                text="Result: 3.40 (In the Scale of 4.00)"
+                                title="Session: 2006-09"/>
+                            <item3
+                                jcr:primaryType="nt:unstructured"
+                                heading="Senior UI/UX Designer"
+                                title="July 2015 to Present"/>
+                            <item4
+                                jcr:primaryType="nt:unstructured"
+                                heading="Diploma in Fine Arts &amp; Printing"
+                                text="Result: 4.94 (In the Scale of 5.00)"
+                                title="Session: 2003-06"/>
+                        </timelinedetailswithmap>
+                    </timeline>
+                    <experiencefragment
+                        jcr:created="{Date}2021-09-15T17:13:11.321+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-15T17:13:11.321+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="personalproject/components/experiencefragment"
+                        fragmentVariationPath="/content/experience-fragments/personalproject/us/en/site/testimonial-fragment/master"/>
+                    <experiencefragment_906397676
+                        jcr:created="{Date}2021-09-16T17:48:58.222+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-16T17:48:58.222+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="personalproject/components/experiencefragment"
+                        fragmentVariationPath="/content/experience-fragments/personalproject/us/en/site/brands-fragment/master"/>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

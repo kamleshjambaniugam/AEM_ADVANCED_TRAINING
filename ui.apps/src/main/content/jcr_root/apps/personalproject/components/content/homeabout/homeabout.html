@@ -1,0 +1,21 @@
+<div data-sly-use.homeabout="com.personalproject.core.models.HomeAbout"></div>
+
+<!-- Start home-about Area -->
+<section class="home-about-area pt-120">
+				<div class="container">
+					<div class="row align-items-center justify-content-between">
+						<div class="col-lg-6 col-md-6 home-about-left">
+							<img class="img-fluid" src="${homeabout.aboutImage}" alt="">
+						</div>
+						<div class="col-lg-5 col-md-6 home-about-right">
+							<h6>${homeabout.about}</h6>
+							<h1 class="text-uppercase">${homeabout.details}</h1>
+							<p>
+								${homeabout.intro}
+							</p>
+							<a href="${homeabout.path @ extension = 'html'}" class="primary-btn text-uppercase">${homeabout.buttonTitle}</a>
+						</div>
+					</div>
+				</div>	
+			</section>
+<!-- End home-about Area -->

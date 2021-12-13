@@ -1,0 +1,17 @@
+<div data-sly-use.homebanner="com.personalproject.core.models.HomeBanner"></div>
+
+<section class="banner-area">
+				<div class="container">
+					<div class="row fullscreen align-items-center justify-content-between">
+						<div class="col-lg-6 col-md-6 banner-left">
+							<h6>${homebanner.bio}</h6>
+							<h1>${homebanner.fullName}</h1>
+							<p>${homebanner.intro}</p>
+							<a href="${homebanner.path @ extension='html'}" class="primary-btn text-uppercase">${homebanner.myButton}</a>
+						</div>
+						<div class="col-lg-6 col-md-6 banner-right d-flex align-self-end">
+							<img class="img-fluid" src="${homebanner.heroImage}" alt="">
+						</div>
+					</div>
+				</div>					
+</section>

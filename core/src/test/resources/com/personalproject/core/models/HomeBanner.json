@@ -1,0 +1,16 @@
+{
+  "homeBanner":{
+    "jcr:primaryType":"nt:unstructured",
+    "jcr:createdBy":"admin",
+    "jcr:lastModifiedBy":"admin",
+    "mybutton":"DISCOVER NOW",
+    "pathfield":"/content/personalproject/us/en/about",
+    "jcr:created":"Mon Sep 06 2021 19:01:08 GMT+0530",
+    "bio":"THIS IS ME",
+    "img":"/content/dam/personalproject/hero-img.png",
+    "intro":"You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures.",
+    "jcr:lastModified":"Thu Sep 09 2021 11:22:37 GMT+0530",
+    "sling:resourceType":"personalproject/components/content/homebannerarea",
+    "fullname":"PHILIP GILBERT"}
+
+}
