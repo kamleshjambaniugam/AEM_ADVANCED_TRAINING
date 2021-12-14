@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-12-02T17:37:24.544+01:00"
+        cq:lastModified="{Date}2021-12-13T15:19:02.510+05:30"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2021-09-17T10:40:36.153+05:30"
         cq:lastReplicatedBy="admin"
@@ -61,6 +61,20 @@
                                 cq:policy="personalproject/components/download/policy_1575032193319"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wcm/core/components/policies/mapping"/>
+                            <content jcr:primaryType="nt:unstructured">
+                                <titletext
+                                    cq:policy="personalproject/components/content/titletext/policy_1638961914841"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                                <customteaser
+                                    cq:policy="personalproject/components/content/customteaser/policy_1638962917050"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                                <homeabout
+                                    cq:policy="personalproject/components/content/homeabout/policy_1639388342991"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                            </content>
                         </components>
                     </personalproject>
                 </container>
