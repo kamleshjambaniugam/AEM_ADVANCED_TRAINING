@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="2d1836d2-bc4a-4a40-ac97-df22f9d7c08b">
+    <jcr:content
+        cq:name="auyhor-details"
+        cq:parentPath="/content/dam/personalproject/content-fragments/en"
+        jcr:lastModified="{Date}2022-01-28T15:52:38.688+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Author Details"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2022-01-28T15:52:38.689+05:30">
+        <data
+            cq:model="/conf/personalproject/settings/dam/cfm/models/personal-project-cf-model"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                authorbio="&lt;p>J.&amp;nbsp;K. Rowling, is a British author, philanthropist, film producer, and screenwriter. She is the author of the&amp;nbsp;&lt;i>&lt;a title=&quot;https://en.wikipedia.org/wiki/harry_potter&quot; href=&quot;https://en.wikipedia.org/wiki/Harry_Potter&quot;>Harry Potter&lt;/a>&lt;/i>&amp;nbsp;series, which has won multiple awards and sold more than 500&amp;nbsp;million copies as of 2018,&lt;a title=&quot;https://en.wikipedia.org/wiki/j._k._rowling#cite_note-top500m-2&quot; href=&quot;https://en.wikipedia.org/wiki/J._K._Rowling#cite_note-Top500M-2&quot;>[2]&lt;/a>&amp;nbsp;and became the&amp;nbsp;&lt;a title=&quot;https://en.wikipedia.org/wiki/list_of_best-selling_books&quot; href=&quot;https://en.wikipedia.org/wiki/List_of_best-selling_books&quot;>best-selling book children's series in history&lt;/a>&amp;nbsp;in 2008.&amp;nbsp;The books are the basis of a&amp;nbsp;&lt;a title=&quot;https://en.wikipedia.org/wiki/harry_potter_(film_series)&quot; href=&quot;https://en.wikipedia.org/wiki/Harry_Potter_(film_series)&quot;>popular film series&lt;/a>. She also writes&amp;nbsp;&lt;a title=&quot;https://en.wikipedia.org/wiki/crime_fiction&quot; href=&quot;https://en.wikipedia.org/wiki/Crime_fiction&quot;>crime fiction&lt;/a>&amp;nbsp;under the pen name&amp;nbsp;Robert Galbraith&lt;/p>&#xa;"
+                authorbio_x0040_ContentType="text/html"
+                authorbio_x0040_LastModified="{Date}2022-01-28T15:39:25.219+05:30"
+                authorname="J. K. Rowling"
+                authorname_x0040_LastModified="{Date}2022-01-28T15:39:25.214+05:30"
+                books="[The Casual Vacancy ,Harry Potter]"
+                books_x0040_LastModified="{Date}2022-01-28T15:39:25.215+05:30"
+                isauthor="{Boolean}true"
+                isauthor_x0040_LastModified="{Date}2022-01-28T15:39:25.218+05:30"
+                profession="Author"
+                profession_x0040_LastModified="{Date}2022-01-28T15:39:25.217+05:30"
+                publishdate="{Date}2022-01-11T15:38:00.000+05:30"
+                publishdate_x0040_LastModified="{Date}2022-01-28T15:39:25.216+05:30"/>
+            <author_1
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                authorbio="&lt;p>I am author 1&lt;/p>&#xa;"
+                authorbio_x0040_ContentType="text/html"
+                authorbio_x0040_LastModified="{Date}2022-01-28T15:52:38.645+05:30"
+                authorname="J. K. Rowling,variation"
+                authorname_x0040_LastModified="{Date}2022-01-28T15:52:38.641+05:30"
+                books="[The Casual Vacancy ,Harry Potter]"
+                books_x0040_LastModified="{Date}2022-01-28T15:52:38.642+05:30"
+                isauthor="{Boolean}true"
+                isauthor_x0040_LastModified="{Date}2022-01-28T15:52:38.645+05:30"
+                profession="Author"
+                profession_x0040_LastModified="{Date}2022-01-28T15:52:38.643+05:30"
+                publishdate="{Date}2022-01-11T15:38:00.000+05:30"
+                publishdate_x0040_LastModified="{Date}2022-01-28T15:52:38.642+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <model jcr:primaryType="nt:unstructured">
+            <variations jcr:primaryType="nt:unstructured">
+                <author_1
+                    jcr:description=""
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Author 1"
+                    name="author_1">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[authorname:58768f82-1340-4519-bbe5-490089e3d0d2,books:58768f82-1340-4519-bbe5-490089e3d0d2,publishdate:58768f82-1340-4519-bbe5-490089e3d0d2,profession:58768f82-1340-4519-bbe5-490089e3d0d2,isauthor:58768f82-1340-4519-bbe5-490089e3d0d2,authorbio:58768f82-1340-4519-bbe5-490089e3d0d2]"/>
+                </author_1>
+            </variations>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
