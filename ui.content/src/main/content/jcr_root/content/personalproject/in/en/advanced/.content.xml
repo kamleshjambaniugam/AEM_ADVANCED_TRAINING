@@ -2,65 +2,83 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
-        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-
-        cq:lastModified="{Date}2022-01-28T15:53:24.661+05:30"
-
+        cq:lastModified="{Date}2022-01-24T14:44:22.465+05:30"
         cq:lastModifiedBy="admin"
-        cq:lastReplicated="{Date}2021-12-24T18:05:07.231+05:30"
-        cq:lastReplicatedBy="workflow-process-service"
-        cq:lastReplicationAction="Activate"
+        cq:lastRolledout="{Date}2022-01-24T14:44:22.471+05:30"
+        cq:lastRolledoutBy="admin"
         cq:template="/conf/personalproject/settings/wcm/templates/page-content"
         jcr:isCheckedOut="{Boolean}true"
-        jcr:mixinTypes="[mix:versionable]"
+        jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync,mix:versionable]"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Workflow"
-        jcr:uuid="7c4ff647-2c89-4964-ade5-36d8c88ecbdf"
-        sling:resourceType="personalproject/components/page"
-        Approver1="kamlesh"
-        Approver2="testuser">
+        jcr:title="Advanced"
+        jcr:uuid="a33bc39a-e3b3-4975-af48-4ae65838fe29"
+        sling:resourceType="personalproject/components/page">
         <root
+            cq:lastRolledout="{Date}2022-01-24T14:44:22.191+05:30"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="personalproject/components/container"
             layout="responsiveGrid">
             <container
-                jcr:lastModified="{Date}2021-09-14T20:38:19.170+05:30"
+                cq:lastRolledout="{Date}2022-01-24T14:44:22.202+05:30"
+                cq:lastRolledoutBy="admin"
+                jcr:lastModified="{Date}2022-01-24T14:44:22.193+05:30"
                 jcr:lastModifiedBy="admin"
+                jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="personalproject/components/container"
                 layout="responsiveGrid">
                 <container
+                    cq:lastRolledout="{Date}2022-01-24T14:44:22.219+05:30"
+                    cq:lastRolledoutBy="admin"
+                    jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="personalproject/components/container"
                     layout="responsiveGrid">
                     <homeabout
+                        cq:lastRolledout="{Date}2022-01-24T14:44:22.249+05:30"
+                        cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2021-09-07T11:45:57.592+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-12-24T18:05:06.771+05:30"
+                        jcr:lastModified="{Date}2022-01-24T14:44:22.238+05:30"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="personalproject/components/content/homeabout"
-                        about="About Me,trigger"
-                        details="Personal Details,trigger"
+                        about="About Me"
+                        details="Personal Details"
                         img="/content/dam/personalproject/about-img.png"
                         intro="Here, I focus on a range of items and features that we use in life without giving them a second thought. such as Coca Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
                         mybutton="VIEW FULL DETAILS"
                         pathfield="/content/personalproject/us/en/about"/>
                     <testimonial
+                        cq:lastRolledout="{Date}2022-01-24T14:44:22.258+05:30"
+                        cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2021-09-09T12:12:56.350+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-09T12:15:44.275+05:30"
+                        jcr:lastModified="{Date}2022-01-24T14:44:22.251+05:30"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="personalproject/components/content/testimonial">
-                        <testimonialdetailswithmap jcr:primaryType="nt:unstructured">
+                        <testimonialdetailswithmap
+                            cq:lastRolledout="{Date}2022-01-24T14:44:22.265+05:30"
+                            cq:lastRolledoutBy="admin"
+                            jcr:mixinTypes="[cq:LiveRelationship]"
+                            jcr:primaryType="nt:unstructured">
                             <item0
+                                cq:lastRolledout="{Date}2022-01-24T14:44:22.275+05:30"
+                                cq:lastRolledoutBy="admin"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 description="Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills, the bigger the payoff you."
                                 heading="Harriet Maxwell"
                                 title="CEO at Google"/>
                             <item1
+                                cq:lastRolledout="{Date}2022-01-24T14:44:22.293+05:30"
+                                cq:lastRolledoutBy="admin"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 description="A purpose is the eternal condition for success. Every former smoker can tell you just how hard it is to stop smoking cigarettes. However."
                                 heading="Carolyn Craig"
@@ -68,32 +86,54 @@
                         </testimonialdetailswithmap>
                     </testimonial>
                     <timeline
+                        cq:lastRolledout="{Date}2022-01-24T14:44:22.305+05:30"
+                        cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2021-09-14T23:43:31.576+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-15T22:31:12.557+05:30"
+                        jcr:lastModified="{Date}2022-01-24T14:44:22.296+05:30"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="personalproject/components/content/timeline">
-                        <timelinedetailswithmap jcr:primaryType="nt:unstructured">
+                        <timelinedetailswithmap
+                            cq:lastRolledout="{Date}2022-01-24T14:44:22.311+05:30"
+                            cq:lastRolledoutBy="admin"
+                            jcr:mixinTypes="[cq:LiveRelationship]"
+                            jcr:primaryType="nt:unstructured">
                             <item0
+                                cq:lastRolledout="{Date}2022-01-24T14:44:22.322+05:30"
+                                cq:lastRolledoutBy="admin"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 heading="Masters in Graphics &amp; Fine Arts"
                                 text="Result: 3.78 (In the Scale of 4.00)"
                                 title="Session: 2010-11"/>
                             <item1
+                                cq:lastRolledout="{Date}2022-01-24T14:44:22.327+05:30"
+                                cq:lastRolledoutBy="admin"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 heading="Creative Content Developer"
                                 title="July 2015 to Present"/>
                             <item2
+                                cq:lastRolledout="{Date}2022-01-24T14:44:22.333+05:30"
+                                cq:lastRolledoutBy="admin"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 heading="Bachelor in Graphics &amp; UI/UX"
                                 text="Result: 3.40 (In the Scale of 4.00)"
                                 title="Session: 2006-09"/>
                             <item3
+                                cq:lastRolledout="{Date}2022-01-24T14:44:22.338+05:30"
+                                cq:lastRolledoutBy="admin"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 heading="Senior UI/UX Designer"
                                 title="July 2015 to Present"/>
                             <item4
+                                cq:lastRolledout="{Date}2022-01-24T14:44:22.343+05:30"
+                                cq:lastRolledoutBy="admin"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 heading="Diploma in Fine Arts &amp; Printing"
                                 text="Result: 4.94 (In the Scale of 5.00)"
@@ -101,10 +141,13 @@
                         </timelinedetailswithmap>
                     </timeline>
                     <price
+                        cq:lastRolledout="{Date}2022-01-24T14:44:22.353+05:30"
+                        cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2021-09-09T12:16:05.748+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-09T12:16:39.163+05:30"
+                        jcr:lastModified="{Date}2022-01-24T14:44:22.346+05:30"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="personalproject/components/content/price"
                         heading="Economy"
@@ -113,40 +156,59 @@
                         tag2="Unlimited Styles for interface"
                         tag3="Reliable Customer Service"
                         title="For the individuals">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
+                        <cq:responsive
+                            cq:lastRolledout="{Date}2022-01-24T14:44:22.356+05:30"
+                            cq:lastRolledoutBy="admin"
+                            jcr:mixinTypes="[cq:LiveRelationship]"
+                            jcr:primaryType="nt:unstructured">
                             <default
+                                cq:lastRolledout="{Date}2022-01-24T14:44:22.364+05:30"
+                                cq:lastRolledoutBy="admin"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
                                 width="3"/>
                         </cq:responsive>
                     </price>
                     <formaddition
+                        cq:lastRolledout="{Date}2022-01-24T14:44:22.374+05:30"
+                        cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2021-11-26T16:03:09.675+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-11-26T16:03:09.675+05:30"
+                        jcr:lastModified="{Date}2022-01-24T14:44:22.368+05:30"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="personalproject/components/content/formaddition"/>
                     <users
+                        cq:lastRolledout="{Date}2022-01-24T14:44:22.383+05:30"
+                        cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2021-12-06T15:30:38.941+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-12-06T15:50:22.913+05:30"
+                        jcr:lastModified="{Date}2022-01-24T14:44:22.377+05:30"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="personalproject/components/content/users"/>
                     <serviceusers
+                        cq:lastRolledout="{Date}2022-01-24T14:44:22.392+05:30"
+                        cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2021-12-06T16:34:31.619+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-12-06T16:34:31.619+05:30"
+                        jcr:lastModified="{Date}2022-01-24T14:44:22.386+05:30"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="personalproject/components/content/serviceusers"/>
                     <titletext
+                        cq:lastRolledout="{Date}2022-01-24T14:44:22.414+05:30"
+                        cq:lastRolledoutBy="admin"
                         cq:styleIds="[1638962374918]"
                         jcr:created="{Date}2021-12-08T16:47:14.833+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-12-08T16:48:16.917+05:30"
+                        jcr:lastModified="{Date}2022-01-24T14:44:22.399+05:30"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="personalproject/components/content/titletext"
                         info="I am kamlesh"
@@ -155,11 +217,14 @@
                         styling="false"
                         title="hii"/>
                     <customteaser
+                        cq:lastRolledout="{Date}2022-01-24T14:44:22.441+05:30"
+                        cq:lastRolledoutBy="admin"
                         cq:styleIds="[1638963045538,1638962991295]"
                         jcr:created="{Date}2021-12-08T17:01:31.536+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-12-08T17:02:03.225+05:30"
+                        jcr:lastModified="{Date}2022-01-24T14:44:22.421+05:30"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="personalproject/components/content/customteaser"
                         actionsEnabled="false"
@@ -168,61 +233,39 @@
                         textIsRich="true"
                         titleFromPage="false"/>
                     <homeabout_1670040289
+                        cq:lastRolledout="{Date}2022-01-24T14:44:22.458+05:30"
+                        cq:lastRolledoutBy="admin"
                         cq:styleIds="[1639388368594,1639388417620,1639388470742,1639388556066]"
                         jcr:created="{Date}2021-12-13T15:14:19.528+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-12-24T17:49:26.786+05:30"
+                        jcr:lastModified="{Date}2022-01-24T14:44:22.449+05:30"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="personalproject/components/content/homeabout"
-                        about="This is me, workflow trigger"
-                        details="Philip Gilbert,"
+                        about="This is me"
+                        details="Philip Gilbert"
                         img="/content/dam/personalproject/hero-img.png"
                         intro="You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures."
                         mybutton="Discover now"
-                        pathfield="/content/personalproject/us/en/advanced1"/>
+                        pathfield="/content/personalproject/in/en/advanced"/>
                     <osgiconfigdemo
+                        cq:lastRolledout="{Date}2022-01-24T14:44:22.470+05:30"
+                        cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2021-12-13T17:35:37.843+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-12-13T17:35:37.843+05:30"
+                        jcr:lastModified="{Date}2022-01-24T14:44:22.462+05:30"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="personalproject/components/content/osgiconfigdemo"/>
-
-                    <experiencefragment
-                        jcr:created="{Date}2022-01-27T15:03:38.608+05:30"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-01-27T15:03:38.608+05:30"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="personalproject/components/experiencefragment"
-                        fragmentVariationPath="/content/experience-fragments/personalproject/us/en/site/xf-demo/master"/>
-                    <contentfragment
-                        jcr:created="{Date}2022-01-28T15:45:32.081+05:30"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-01-28T15:46:11.592+05:30"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="personalproject/components/content/contentfragment"
-                        displayMode="multi"
-                        fragmentPath="/content/dam/personalproject/content-fragments/en/auyhor-details"
-                        paragraphScope="all"
-                        variationName="master"/>
-                    <contentfragment_774511189
-                        jcr:created="{Date}2022-01-28T15:52:53.405+05:30"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-01-28T15:53:24.580+05:30"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="personalproject/components/content/contentfragment"
-                        displayMode="multi"
-                        elementNames="[authorname,authorbio]"
-                        fragmentPath="/content/dam/personalproject/content-fragments/en/auyhor-details"
-                        paragraphScope="all"
-                        variationName="author_1"/>
-
                 </container>
             </container>
         </root>
+        <cq:LiveSyncConfig
+            cq:isDeep="{Boolean}true"
+            cq:master="/content/personalproject/us/en/advanced"
+            cq:rolloutConfigs="[/libs/msm/wcm/rolloutconfigs/default]"
+            jcr:primaryType="cq:LiveCopy"/>
     </jcr:content>
 </jcr:root>
