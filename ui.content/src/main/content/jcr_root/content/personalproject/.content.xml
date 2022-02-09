@@ -3,8 +3,9 @@
     jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:allowedTemplates="[/conf/personalproject/settings/wcm/templates/(?!xf-).*]"
-        cq:conf="/conf/personalproject"
+        cq:allowedTemplates="/conf/personalproject/settings/wcm/templates/(?!xf-).*"
+        cq:lastModified="{Date}2022-02-09T14:42:23.452+05:30"
+        cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2021-09-17T10:39:58.314+05:30"
         cq:lastReplicatedBy="admin"
         cq:lastReplicationAction="Activate"
@@ -14,7 +15,6 @@
         jcr:title="Personal Project"
         jcr:uuid="cb4c2beb-c8a6-49c7-9de4-841317e9cc66"
         sling:configRef="/conf/personalproject"
-        sling:redirect="{Boolean}true"
         sling:redirectStatus="{Long}302"
         sling:resourceType="foundation/components/redirect"
         redirectTarget="/content/personalproject/us/en">
