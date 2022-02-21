@@ -6,12 +6,14 @@ import java.util.HashMap;
 import java.util.Map;
 public class ResolverUtils {
 
-    public static final String PROJECT_SERVICE_USER = "kamleshdemo";
+    public static final String PROJECT_SERVICE_USER = "newprojectuser";
+    private ResolverUtils(){}
     public static ResourceResolver newResolver( ResourceResolverFactory resourceResolverFactory ) throws LoginException {
-        final Map<String, Object> paramMap = new HashMap<String, Object>();
+
+        final Map<String, Object> paramMap = new HashMap<>();
         paramMap.put( ResourceResolverFactory.SUBSERVICE, PROJECT_SERVICE_USER );
         // fetches the admin service resolver using service user.
-        ResourceResolver resolver = resourceResolverFactory.getServiceResourceResolver(paramMap);
-        return resolver;
+
+        return resourceResolverFactory.getServiceResourceResolver(paramMap);
     }
 }

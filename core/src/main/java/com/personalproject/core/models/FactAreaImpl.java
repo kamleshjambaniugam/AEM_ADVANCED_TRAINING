@@ -34,7 +34,7 @@ public class FactAreaImpl implements FactArea{
 
         List<Map<String, String>> factDetailsMap=new ArrayList<>();
         try {
-//            Resource factDetail=componentResource.getChild("factdetailswithmap");
+
             if(factdetailswithmap!=null){
                 for (Resource fact : factdetailswithmap.getChildren()) {
                     Map<String,String> factMap=new HashMap<>();

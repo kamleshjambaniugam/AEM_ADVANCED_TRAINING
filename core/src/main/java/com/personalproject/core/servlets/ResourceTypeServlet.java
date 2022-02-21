@@ -21,11 +21,12 @@ import java.util.List;
 
 )
 public class ResourceTypeServlet extends SlingSafeMethodsServlet {
+    @Override
     protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response) throws IOException{
 
         final ResourceResolver resourceResolver = request.getResourceResolver();
         Page page = resourceResolver.adaptTo(PageManager.class).getPage("/content/personalproject/us/en");
-        List pageList = new ArrayList();
+        List <Object>pageList = new ArrayList<>();
         Iterator<Page> childPages = page.listChildren();
         while (childPages.hasNext()){
             Page childPage =childPages.next();

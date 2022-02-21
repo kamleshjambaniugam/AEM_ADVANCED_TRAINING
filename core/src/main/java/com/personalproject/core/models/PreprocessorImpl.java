@@ -22,7 +22,8 @@ public class PreprocessorImpl implements Preprocessor {
     private ResourceResolverFactory resourceResolverFactory;
     @Reference
     DisplayDate displayDate;
-    String path1 = "/content/personalproject/us/en/scheduler-page/jcr:content/root/container/container/displaydate";
+
+
     @Override
     public void preprocess(ReplicationAction replicationAction, ReplicationOptions replicationOptions) throws ReplicationException {
         LOG.info("\nInside Method");
@@ -30,19 +31,19 @@ public class PreprocessorImpl implements Preprocessor {
             return;
         }
         String path = replicationAction.getPath();
-        if(path.equals("/content/personalproject/us/en/scheduler-page")){
+        if(path.equals("/content/personalproject/us/en")){
             LOG.debug("\npath equal");
-            try {
-                ResourceResolver resourceResolver = ResolverUtils.newResolver(resourceResolverFactory);
+            try (ResourceResolver resourceResolver = ResolverUtils.newResolver(resourceResolverFactory)){
+
                 Session session = resourceResolver.adaptTo(Session.class);
-                Resource resource = resourceResolver.getResource(path1);
+                Resource resource = resourceResolver.getResource("/content/personalproject/us/en/scheduler-page/jcr:content/root/container/container/displaydate");
                 Node node = resource.adaptTo(Node.class);
                 Property date = node.getProperty("NewTime");
                 if(date == DateUtil.parseISO8601(DateUtil.getISO8601Date(Calendar.getInstance()))){
                     LOG.info("\nINSIDE IF");
                 }else{
                     LOG.info("\nINSIDE ELSE");
-                    displayDate.displayDate(path1);
+                    displayDate.displayDate("/content/personalproject/us/en/scheduler-page/jcr:content/root/container/container/displaydate");
                     session.save();
                     session.logout();
                 }
@@ -50,6 +51,7 @@ public class PreprocessorImpl implements Preprocessor {
             } catch (Exception e) {
                 LOG.info(e.getMessage());
             }
+
         }
 
     }
