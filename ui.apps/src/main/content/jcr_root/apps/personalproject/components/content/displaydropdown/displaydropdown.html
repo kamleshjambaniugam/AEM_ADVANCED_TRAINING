@@ -1,0 +1,28 @@
+<sly data-sly-test.hasType="${properties.type}">
+<pre>This product is a: ${properties.type}</pre>
+
+
+
+<pre data-sly-test="${properties.type == 'phone' && properties.contactinfo}">Contact Info: ${properties.contactinfo}</pre>
+
+
+
+<pre data-sly-test="${properties.type == 'address' && properties.line1}">Line 1: ${properties.line1}</pre>
+<pre data-sly-test="${properties.type == 'address' && properties.line2}">Line 2: ${properties.line2}</pre>
+<pre data-sly-test="${properties.type == 'address' && properties.line3}">Line 3: ${properties.line3}</pre>
+
+
+
+<pre data-sly-test="${properties.type == 'gender' && properties.gender}">Gender: ${properties.gender}</pre>
+
+
+
+<pre data-sly-test="${properties.type == 'languages' && properties.english}">Language: ${properties.english}</pre>
+<pre data-sly-test="${properties.type == 'languages' && properties.hindi}">Language: ${properties.hindi}</pre>
+<pre data-sly-test="${properties.type == 'languages' && properties.marathi}">Language: ${properties.marathi}</pre>
+
+
+
+
+
+</sly>
