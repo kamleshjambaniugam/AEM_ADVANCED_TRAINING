@@ -41,7 +41,7 @@ public class TestimonialImpl implements Testimonial {
 
         List<Map<String, String>> testimonialDetailsMap=new ArrayList<>();
         try {
-//            Resource testimonialDetail=componentResource.getChild("testimonialdetailswithmap");
+
             if(testimonialdetailswithmap!=null){
                 for (Resource testimonial : testimonialdetailswithmap.getChildren()) {
                     Map<String,String> testimonialMap=new HashMap<>();

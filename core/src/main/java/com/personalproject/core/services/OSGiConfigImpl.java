@@ -49,8 +49,13 @@ public class OSGiConfigImpl implements OSGiConfig{
                 type = AttributeType.STRING)
         String getRunMode() default "both";
     }
-    private String serviceName; private int serviceCount; private boolean liveData; private String[] countries; private String runModes;
-    @Activate protected void activate(ServiceConfig serviceConfig){
+    private String serviceName;
+    private int serviceCount;
+    private boolean liveData;
+    private String[] countries;
+    private String runModes;
+    @Activate
+    public void activate(ServiceConfig serviceConfig){
         serviceName=serviceConfig.serviceName(); serviceCount=serviceConfig.getServiceCount(); liveData=serviceConfig.getLiveData(); countries=serviceConfig.getCountries(); runModes=serviceConfig.getRunMode(); }
 
 

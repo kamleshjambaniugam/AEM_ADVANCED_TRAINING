@@ -5,6 +5,7 @@ import com.adobe.granite.workflow.exec.WorkItem;
 import com.adobe.granite.workflow.exec.WorkflowData;
 import com.adobe.granite.workflow.exec.WorkflowProcess;
 import com.adobe.granite.workflow.metadata.MetaDataMap;
+
 import org.osgi.framework.Constants;
 import org.osgi.service.component.annotations.Component;
 import org.slf4j.Logger;
@@ -37,7 +38,7 @@ public class PersonalWorkflow implements WorkflowProcess {
                 Session session = workflowSession.adaptTo(Session.class);
                 String path = workflowData.getPayload().toString() + "/jcr:content";
                 Node node = (Node) session.getItem(path);
-                String[] processArgs = processArguments.get("PROCESS_ARGS", "string").toString().split(",");
+                String[] processArgs = processArguments.get("PROCESS_ARGS", "string").split(",");
                 MetaDataMap wfd=workItem.getWorkflow().getWorkflowData().getMetaDataMap();
                 for (String wfArgs : processArgs) {
                     String[] args = wfArgs.split(":");
@@ -57,6 +58,7 @@ public class PersonalWorkflow implements WorkflowProcess {
                 }
             }
         }catch (Exception e){
+            log.info(e.getMessage());
 
         }
     }

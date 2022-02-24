@@ -22,7 +22,7 @@ import javax.inject.Inject;
 
 public class HomeAboutImpl implements HomeAbout {
 
-//    final protected static String RESOURCE_TYPE = "personalproject/components/content/homeabout";
+
 
     static final String RESOURCE_TYPE="personalproject/components/content/homeabout";
 

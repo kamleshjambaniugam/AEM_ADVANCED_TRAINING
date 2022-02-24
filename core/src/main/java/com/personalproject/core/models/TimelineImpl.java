@@ -29,7 +29,7 @@ public class TimelineImpl implements Timeline{
     static final String RESOURCE_TYPE="personalproject/components/content/timeline";
 
 
-    private static final Logger LOG = LoggerFactory.getLogger(FactAreaImpl.class);
+    private static final Logger LOG = LoggerFactory.getLogger(TimelineImpl.class);
 
 
     @ChildResource
@@ -40,7 +40,7 @@ public class TimelineImpl implements Timeline{
     public List<Map<String, String>> getTimelineDetailsWithMap() {
         List<Map<String, String>> timelineDetailsMap=new ArrayList<>();
         try {
-//            Resource timelineDetail=componentResource.getChild("timelinedetailswithmap");
+
             if(timelinedetailswithmap!=null){
                 for (Resource timeline : timelinedetailswithmap.getChildren()) {
                     Map<String,String> timelineMap=new HashMap<>();
