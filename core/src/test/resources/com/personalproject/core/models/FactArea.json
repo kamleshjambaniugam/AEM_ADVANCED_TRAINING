@@ -1,0 +1,33 @@
+{
+  "factArea": {
+    "jcr:primaryType": "nt:unstructured",
+    "jcr:createdBy": "admin",
+    "jcr:lastModifiedBy": "admin",
+    "jcr:created": "Thu Sep 09 2021 12:07:39 GMT+0530",
+    "jcr:lastModified": "Thu Sep 09 2021 12:08:14 GMT+0530",
+    "sling:resourceType": "personalproject/components/content/factarea",
+    "factdetailswithmap": {
+      "jcr:primaryType": "nt:unstructured",
+      "item0": {
+        "jcr:primaryType": "nt:unstructured",
+        "factlabel": "Projects Completed",
+        "factnumber": "2536"
+      },
+      "item1": {
+        "jcr:primaryType": "nt:unstructured",
+        "factlabel": "Happy Clients",
+        "factnumber": "6784"
+      },
+      "item2": {
+        "jcr:primaryType": "nt:unstructured",
+        "factlabel": "Cups of Coffee",
+        "factnumber": "2239"
+      },
+      "item3": {
+        "jcr:primaryType": "nt:unstructured",
+        "factlabel": "Real Professionals",
+        "factnumber": "435"
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "titleText": {
+    "jcr:primaryType": "nt:unstructured",
+    "jcr:createdBy": "admin",
+    "jcr:lastModifiedBy": "admin",
+    "jcr:created": "Wed Sep 15 2021 00:23:02 GMT+0530",
+    "info": "Who are in extremely love with eco friendly system.",
+    "title": "My Qualifications",
+    "sectiongap": "true",
+    "testimonialstyling": "false",
+    "jcr:lastModified": "Wed Sep 15 2021 00:23:37 GMT+0530",
+    "paddingbottom": "true",
+    "sling:resourceType": "personalproject/components/content/titletext"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "menuNav": {
+    "jcr:primaryType": "nt:unstructured",
+    "jcr:createdBy": "admin",
+    "jcr:lastModifiedBy": "admin",
+    "title1": "Home",
+    "jcr:created": "Tue Sep 14 2021 12:41:24 GMT+0530",
+    "path": "/content/personalproject/us/en/home",
+    "path1": "/content/personalproject/us/en/home",
+    "title": "Home",
+    "jcr:lastModified": "Wed Sep 15 2021 12:26:00 GMT+0530",
+    "sling:resourceType": "personalproject/components/content/menunav"
+  }
+}
