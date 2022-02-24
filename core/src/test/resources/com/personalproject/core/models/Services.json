@@ -1,0 +1,12 @@
+{
+  "services": {
+    "jcr:primaryType": "nt:unstructured",
+    "jcr:createdBy": "admin",
+    "description": "“It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult.”",
+    "jcr:lastModifiedBy": "admin",
+    "jcr:created": "Wed Feb 16 2022 14:26:32 GMT+0530",
+    "title": "Web Design",
+    "jcr:lastModified": "Wed Feb 16 2022 14:27:12 GMT+0530",
+    "sling:resourceType": "personalproject/components/content/services"
+  }
+}

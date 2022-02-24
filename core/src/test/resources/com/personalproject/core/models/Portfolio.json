@@ -1,0 +1,13 @@
+{
+  "portfolio": {
+    "jcr:primaryType": "nt:unstructured",
+    "jcr:createdBy": "admin",
+    "jcr:lastModifiedBy": "admin",
+    "jcr:created": "Fri Feb 11 2022 16:06:54 GMT+0530",
+    "img": "/content/dam/personalproject/p1.jpg",
+    "type": "vector",
+    "title": "2D Vinyl Design",
+    "jcr:lastModified": "Fri Feb 11 2022 16:10:00 GMT+0530",
+    "sling:resourceType": "personalproject/components/content/portfolioteaser"
+  }
+}

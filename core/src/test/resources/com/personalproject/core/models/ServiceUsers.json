@@ -1,0 +1,8 @@
+{
+  "users": {
+    "system": {
+      "jcr:primaryType": "rep:SystemUser",
+      "rep:principalName": "newprojectuser"
+    }
+  }
+}

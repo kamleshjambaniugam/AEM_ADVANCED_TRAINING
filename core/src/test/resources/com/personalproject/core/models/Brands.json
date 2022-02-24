@@ -1,0 +1,17 @@
+{
+  "brands": {
+    "jcr:primaryType": "nt:unstructured",
+    "jcr:createdBy": "admin",
+    "jcr:lastModifiedBy": "admin",
+    "jcr:created": "Fri Feb 11 2022 15:00:58 GMT+0530",
+    "path": [
+      "/content/dam/personalproject/l1.png",
+      "/content/dam/personalproject/l2.png",
+      "/content/dam/personalproject/l3.png",
+      "/content/dam/personalproject/l4.png",
+      "/content/dam/personalproject/l5.png"
+    ],
+    "jcr:lastModified": "Fri Feb 11 2022 15:01:44 GMT+0530",
+    "sling:resourceType": "personalproject/components/content/brands"
+  }
+}

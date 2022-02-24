@@ -1,0 +1,12 @@
+{
+  "displayDate": {
+    "jcr:primaryType": "nt:unstructured",
+    "jcr:createdBy": "admin",
+    "jcr:lastModifiedBy": "admin",
+    "NewTime": "Fri Feb 11 2022 12:05:46 GMT+0000",
+    "jcr:created": "Fri Feb 04 2022 19:07:48 GMT+0530",
+    "jcr:lastModified": "Fri Feb 04 2022 19:07:48 GMT+0530",
+    "sling:resourceType": "personalproject/components/content/displaydate",
+    "DateTime": "Date and time added"
+  }
+}

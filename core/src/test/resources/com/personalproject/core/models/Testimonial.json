@@ -1,0 +1,25 @@
+{
+  "testimonial": {
+    "jcr:primaryType": "nt:unstructured",
+    "jcr:createdBy": "admin",
+    "jcr:lastModifiedBy": "admin",
+    "jcr:created": "Wed Sep 08 2021 16:38:28 GMT+0530",
+    "jcr:lastModified": "Wed Sep 08 2021 17:04:43 GMT+0530",
+    "sling:resourceType": "personalproject/components/content/testimonial",
+    "testimonialdetailswithmap": {
+      "jcr:primaryType": "nt:unstructured",
+      "item0": {
+        "jcr:primaryType": "nt:unstructured",
+        "description": "Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills, the bigger the payoff you.",
+        "title": "Harriet Maxwell",
+        "heading": "CEO at Google"
+      },
+      "item1": {
+        "jcr:primaryType": "nt:unstructured",
+        "description": "A purpose is the eternal condition for success. Every former smoker can tell you just how hard it is to stop smoking cigarettes. However.",
+        "title": "Carolyn Craig",
+        "heading": "CEO at Facebook"
+      }
+    }
+  }
+}
