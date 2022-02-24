@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 public class ResolverUtils {
 
-    public static final String PROJECT_SERVICE_USER = "newprojectuser";
+    public static final String PROJECT_SERVICE_USER = "kamleshdemo";
     private ResolverUtils(){}
     public static ResourceResolver newResolver( ResourceResolverFactory resourceResolverFactory ) throws LoginException {
 

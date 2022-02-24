@@ -18,3 +18,4 @@
 bootstrap.css
 main.css
 new.css
+style.css
