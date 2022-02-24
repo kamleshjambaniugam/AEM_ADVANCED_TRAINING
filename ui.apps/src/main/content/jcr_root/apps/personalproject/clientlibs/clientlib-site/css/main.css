@@ -228,6 +228,7 @@ td, th {
   font-size: 11px;
 }
 
+
 .fz-12 {
   font-size: 12px;
 }
@@ -4483,5 +4484,32 @@ dl.accordion.time-line:before {
 }
 
 /*-------- end footer Area -------------*/
+
+
+.li {
+	list-style: none;
+}
+.list-container {
+	font-family: sans-serif;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.card-container {
+	margin: 50px;
+	color: #000000;
+	text-align: center;
+	width: auto;
+	padding: 20px;
+	margin: 0 1rem 2rem 1rem;
+	text-align: center;
+}
+.firstName, .lastName {
+	font: bold;
+}
+
+
+
 
 

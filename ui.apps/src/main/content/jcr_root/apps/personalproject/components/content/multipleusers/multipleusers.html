@@ -1,0 +1,17 @@
+<h1>Multi user with java</h1>
+<sly class="container bg-white" data-sly-use.multiuser="com.personalproject.core.models.MultipleUsers"></sly>
+<h3 hidden>${multiuser.url}</h3>
+<div data-sly-list.items=${multiuser.data}>
+	<div class="column cardlist-container">
+	<img src="${items.avatar}"/>
+		<div>
+		<span class="firstName"><b>${items.fname}</b></span>
+		<span><b>${items.lname}</b></span></div>
+			<div>
+			<span>${items.email}</span>
+		</div>
+
+
+
+	</div>
+</div>
