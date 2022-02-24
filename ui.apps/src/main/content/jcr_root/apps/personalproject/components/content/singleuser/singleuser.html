@@ -1,0 +1,35 @@
+<h1>Single User</h1>
+<div data-sly-use.jsondata="com.personalproject.core.models.SingleUser"></div>
+<div hidden>${jsondata.userid}</div>
+<div id="demo" hidden>${jsondata.message}</div>
+</pre>
+<section>
+
+
+
+<p style="text-align: center;" id="demo1"></p>
+<p style="text-align: center;" id="demo2"></p>
+<p style="text-align: center;" id="demo3"></p>
+<p style="text-align: center;" id="demo4"></p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="demo5" id="demo5" alt="" width="200" height="200"/></p>
+
+
+
+
+
+</section>
+
+
+
+
+
+<script>
+var test = "Hello";
+test = document.getElementById("demo").innerHTML;
+const obj = JSON.parse(test);
+document.getElementById("demo1").innerHTML = obj.data.first_name;
+document.getElementById("demo2").innerHTML = obj.data.last_name;
+document.getElementById("demo3").innerHTML = obj.data.email;
+document.getElementById("demo4").innerHTML = obj.data.id;
+document.getElementById("demo5").src = obj.data.avatar;
+</script>

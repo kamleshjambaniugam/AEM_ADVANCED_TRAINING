@@ -7,6 +7,10 @@ import java.util.Map;
 public class ResolverUtils {
 
     public static final String PROJECT_SERVICE_USER = "kamleshdemo";
+<<<<<<< Updated upstream
+=======
+    private ResolverUtils(){}
+>>>>>>> Stashed changes
     public static ResourceResolver newResolver( ResourceResolverFactory resourceResolverFactory ) throws LoginException {
         final Map<String, Object> paramMap = new HashMap<String, Object>();
         paramMap.put( ResourceResolverFactory.SUBSERVICE, PROJECT_SERVICE_USER );
