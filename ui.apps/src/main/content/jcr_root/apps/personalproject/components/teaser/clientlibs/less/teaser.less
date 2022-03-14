@@ -1,0 +1,138 @@
+.text-on-right{
+	.cmp-teaser{
+        .cmp-teaser__content{
+            position:relative;
+            display:inline:block;
+			text-align: right ;
+            color:red;
+            padding-right:15px !important;
+        }
+    }
+}
+.image-left{
+    .cmp-teaser{
+        padding-top:100px;
+		display:flex;
+        align-items:stretch;
+
+        .cmp-teaser__image{
+			flex-grow:5;
+            .cmp-image__image{
+				width:100%;
+            }
+        }
+        .cmp-teaser__content{
+			flex-grow:5;
+            .cmp-teaser__title{
+				background-color:white;
+                display:inline;
+                border-radius: 25px;
+  				border: 2px solid #73AD21;
+  				width: 200px;
+  				height: 10px;
+                color:cyan;
+                font-size:20px;
+
+                &:hover{
+                    background-color:cyan;
+                    font-color:white;
+                }
+                &:onclick{
+					background:color:red;
+                    color:white;
+                }
+            }
+
+
+        }
+    }
+}
+.image-right{
+    .cmp-teaser{
+		display:flex;
+        margin-top:50px;
+        flex-direction:row-reverse;
+        align-items:stretch;
+
+		.cmp-teaser__content{
+			flex-grow:6;
+        }
+        .cmp-teaser__image{
+			flex-grow:5;
+            .cmp-image__image{
+				width:100%;
+            }
+        }
+
+    }
+}
+.text-overlap{
+	.cmp-teaser{
+        padding:80px 0;
+        position:relative;
+
+		.cmp-teaser__content{
+			margin-top:-180px;
+            position:relative;
+            .cmp-teaser__pretitle{
+				background-color:grey;
+                color:white;
+                display:inline-block;
+                opacity:0.3;
+                margin:10px 15px;
+
+            }
+            .cmp-teaser__title{
+				background-color:grey;
+                color:white;
+                opacity:0.3;
+				display:block;
+                margin:10px 15px;
+
+                width:auto;
+            }
+            .cmp-teaser__description{
+				background-color:grey;
+                color:white;
+				display:inline-block;
+                opacity:0.3;
+                margin:10px 15px;
+             }
+
+        }
+    }
+}
+.cta{
+    .cmp-teaser{
+        .cmp-teaser__action-container{
+            .cmp-teaser__action-link{
+                display:inline-block;
+                background-color:cyan;
+                color:black;
+                font-size:12px;
+                margin-left:20px;
+                margin-right:20px;
+                opacity:0.6;
+            }
+        }
+    }
+}
+.content-bg{
+	.cmp-teaser{
+		.cmp-teaser__content{
+
+			background-color:cyan;
+			position:table-row;
+			display:inline-block;
+			height:auto;
+        }
+    }
+}
+
+
+
+
+
+
+
+
